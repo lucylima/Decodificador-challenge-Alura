@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Decodificaror JS</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Decodificador JS</title>
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body> 
-  <main>
-    <div>
+  <main class="container">
+    <div class="container-codigo">
       <img src="./assets/logo-alura.svg" alt="">
       <div>
         <label for="codigo" id="label-codigo">codigo a ser criptografado ou descriptografado</label>
@@ -26,11 +26,14 @@
         </div>
       </div>
     </div>
-    <aside>
+    <aside class="container-resultado">
       <img src="assets/ilustracao.svg" alt="">
       <h3>Nenhuma mensagem encontrada</h3>
       <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      <p class="codigo-resultado">Código resultado</p>
+      <button class="botao-copiar" onclick="copiarResultado()">Copiar</button>
     </aside>
   </main>
+  <footer><p>Lucy Lima 2024 © Todos os direitos reservados</p></footer>
 </body>
 </html>

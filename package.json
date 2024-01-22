@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "browserlist": "^1.0.1",
     "vite": "^4.5.1"
   }
 }
